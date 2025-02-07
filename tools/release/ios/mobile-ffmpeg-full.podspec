@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|  
-    s.name              = "mobile-ffmpeg-full"
+    s.name              = "gtl-mobile-ffmpeg"
     s.version           = "VERSION"
     s.summary           = "Mobile FFmpeg Full Static Framework"
     s.description       = <<-DESC
@@ -8,14 +8,14 @@ Pod::Spec.new do |s|
 
     s.homepage          = "https://github.com/tanersener/mobile-ffmpeg"
 
-    s.author            = { "Taner Sener" => "tanersener@gmail.com" }
+    s.author            = { "César Abel Ramírez" => "xangcastle@gmail.com" }
     s.license           = { :type => "LGPL-3.0", :file => "mobileffmpeg.framework/LICENSE" }
 
     s.platform          = :ios
     s.requires_arc      = true
     s.libraries         = 'z', 'bz2', 'c++', 'iconv'
 
-    s.source            = { :http => "https://github.com/tanersener/mobile-ffmpeg/archive/refs/tags/v4.4.LTS.zip" }
+    s.source            = { :http => "https://github.com/xangcastle/mobile-ffmpeg/archive/refs/tags/vVERSION.zip" }
 
     s.ios.deployment_target = '9.3'
     s.ios.frameworks    = 'AudioToolbox','AVFoundation','CoreMedia','VideoToolbox'
